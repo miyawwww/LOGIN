@@ -1,0 +1,36 @@
+table, tr, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+.btn {
+display: inline-block;
+padding: 10px 20px;
+margin: 5px;
+text-align: center;
+text-decoration: none;
+font-size: 16px;
+border-radius: 5px;
+transition: background-color 0.3s ease;
+cursor: pointer;
+}
+
+/* Gaya untuk tombol UPDATE */
+.btn-update {
+background-color: #4CAF50; /* Warna hijau */
+color: white;
+}
+
+.btn-update:hover {
+background-color: #45a049; /* Warna hijau lebih gelap saat hover */
+}
+
+/* Gaya untuk tombol DELETE */
+.btn-delete {
+background-color: #f44336; /* Warna merah */
+color: white;
+}
+
+.btn-delete:hover {
+background-color: #da190b; /* Warna merah lebih gelap saat hover */
+}
